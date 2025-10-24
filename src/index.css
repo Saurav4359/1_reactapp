@@ -43,6 +43,7 @@ button {
 img {
   width: 200px;
   height: 200px;
-  border: solid black 5px;
-  border-radius: 40%;
+  border: solid black 1px;
+ 
+ 
 }
