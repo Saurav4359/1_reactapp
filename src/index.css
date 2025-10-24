@@ -29,7 +29,7 @@
     width: 400px;
     border: none;
     border-radius: 2px;
-    background: #e1e1e1;
+    background: #cbcbcb;
     
     
 }
@@ -47,6 +47,7 @@
      font-size: 18px;
      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: #ff1616;
+    cursor: pointer;
 }
 body {
 /*   padding: 40px; */
@@ -62,15 +63,16 @@ h2 {
 }
 .card {
   border: 1px solid #4b5362;
-  padding: 20px;
-  margin: 10px;
+  padding: 10px;
+  margin: 20px;
   background-color: #292828;
 }
 .card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 1024px;
+  width: 100%;
+  /* max-width: 1024px; */
   margin: 0;
 }
 
